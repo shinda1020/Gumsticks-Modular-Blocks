@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\obj\cortexm3_macro.o" ".\obj\stm32f10x_vector.o" ".\obj\main.o" ".\obj\stm32f10x_it.o" ".\obj\uart.o" ".\obj\mpu6050.o" ".\obj\stm32f10x_usart.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_flash.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_nvic.o" ".\obj\stm32f10x_i2c.o" --library_type=microlib --strict --scatter ".\obj\USART.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lis\USART.map" -o ".\obj\USART.axf"

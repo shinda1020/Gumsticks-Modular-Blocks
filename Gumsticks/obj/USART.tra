@@ -1,0 +1,30 @@
+*** Creating Trace Output File '.\obj\USART.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\cortexm3_macro.o"'
+### List of Objects: adding '".\obj\stm32f10x_vector.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\stm32f10x_it.o"'
+### List of Objects: adding '".\obj\uart.o"'
+### List of Objects: adding '".\obj\mpu6050.o"'
+### List of Objects: adding '".\obj\stm32f10x_usart.o"'
+### List of Objects: adding '".\obj\stm32f10x_rcc.o"'
+### List of Objects: adding '".\obj\stm32f10x_flash.o"'
+### List of Objects: adding '".\obj\stm32f10x_gpio.o"'
+### List of Objects: adding '".\obj\stm32f10x_nvic.o"'
+### List of Objects: adding '".\obj\stm32f10x_i2c.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\cortexm3_macro.o" ".\obj\stm32f10x_vector.o" ".\obj\main.o" ".\obj\stm32f10x_it.o" ".\obj\uart.o" ".\obj\mpu6050.o" ".\obj\stm32f10x_usart.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_flash.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_nvic.o" ".\obj\stm32f10x_i2c.o" --library_type=microlib --strict --scatter ".\obj\USART.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lis\USART.map" -o ".\obj\USART.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj\USART.axf'
+### ADS-LD Command File: '.\obj\USART.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj\USART.lnp', Handle=0x000004E4
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj\USART.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
